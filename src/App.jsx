@@ -223,7 +223,7 @@ function App() {
                                     onClick={() => handleAnswerClick(answer)}
                                     disabled={selectedAnswer !== null}
                                 >
-                                    {answer.name} ({answer.country}) - Population: {answer.population}
+                                    {answer.name} ({answer.country})
                                 </button>
                             ))}
                         </div>
